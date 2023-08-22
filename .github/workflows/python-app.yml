@@ -23,3 +23,7 @@ jobs:
 
     - name: Run Python script
       run: python example.py
+
+    - name: Run tests
+      run: |
+        python -m unittest test_example.py
